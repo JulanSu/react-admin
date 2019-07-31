@@ -1,0 +1,32 @@
+
+.form {
+    .ant-input {
+        border: none ;
+        background: #fff;
+        font-size: 20px;
+        border-radius: 0;
+        padding-left: 40px !important;
+        border-bottom: 1px solid #d5d5d5 !important;
+        padding: 11px;
+        font-weight: 400;
+        &:focus {
+            border: none;
+            box-shadow: none;
+        }
+    }
+    .ant-input-prefix {
+        font-size: 20px;
+    }
+    .ant-input-affix-wrapper {
+        height: 50px;
+    }
+    .login-form-button {
+        width: 100%;
+        height: 45px;
+        font-size: 18px;
+        margin-top: 20px;
+    }
+    .ant-form-explain {
+        margin-top: 4px;
+    }
+}
